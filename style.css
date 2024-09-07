@@ -1,0 +1,39 @@
+header{
+    height: 10vh;
+    background-color: gray;
+}
+
+footer{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+#content button{
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+#content1 {
+    background-color: aqua;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+main{
+    height: 79vh;
+}
+#content2{
+    width: 70%;
+    height: 300px;
+    border: solid 5px;
+    margin-left: 50px;
+    background-color: gray;
+    margin-left: 12rem;
+    margin-top: 10rem;
+}

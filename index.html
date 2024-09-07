@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+        <div id="content">
+            <button onclick="openmodal()">open</button>
+        </div>
+        <div id="content1">
+            <div id="content2">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum accusantium molestiae iusto exercitationem deleniti, repellendus hic illum consequatur fugiat culpa non dolorum amet ipsum sint perferendis corrupti magni ex pariatur incidunt beatae tempore commodi! Iure odit accusantium odio accusamus sint, quasi impedit nemo sequi perspiciatis nobis quos consequatur? Quia facere voluptas cum libero necessitatibus. Id omnis asperiores tempore tenetur expedita blanditiis odio cumque recusandae neque fuga nostrum, aperiam veniam voluptates adipisci consequuntur, sequi eius fugit hic delectus qui accusamus architecto quo. Saepe eaque beatae perspiciatis amet itaque cum possimus, perferendis similique quo, labore soluta dolor atque accusamus voluptatum cumque delectus?</p>
+                <button onclick="closemodal()">close</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur quae pariatur esse, facilis earum libero fugit quas rem deleniti ducimus repellat reiciendis asperiores velit nemo laborum doloribus non eum sint eaque consectetur? Suscipit ut alias, quo officia praesentium itaque veritatis adipisci officiis deleniti omnis dolorum sunt magnam amet, temporibus aliquam, et autem rem distinctio vitae! Asperiores voluptas quae ratione at? Mollitia dignissimos eaque amet temporibus eveniet aspernatur quisquam a. Error molestias voluptas nemo rerum, nam reiciendis consequatur laudantium quos fuga neque recusandae, veritatis dolore sint doloremque excepturi. Exercitationem corrupti nisi eaque odit quibusdam, sequi culpa! Architecto necessitatibus unde recusandae eveniet.</p>
+    </main>
+    <footer>
+        <h2>@popup</h2>
+    </footer>  
+    <script>
+        function openmodal(){
+            document.getElementById("content1").style.display="block"
+        }
+        function closemodal(){
+            document.getElementById("content1").style.display="none"
+        }
+    </script>
+</body>
+</html>
